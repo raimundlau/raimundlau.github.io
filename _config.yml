@@ -3,7 +3,7 @@
 title: "Raimund Lau - Robotics & AI student at TUM"
 description: "An open-source template for showcasing robotics and mechatronics projects with 3D models, schematics, and code"
 url: "https://raimundlau.github.io"
-baseurl: "/raimundlau.github.io"
+baseurl: "/"
 author: "Raimund Lau"
 email: "raimund.lau@tum.de"
 github_username: "raimundlau"
