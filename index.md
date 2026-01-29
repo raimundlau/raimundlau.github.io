@@ -8,7 +8,7 @@ layout: default
       <div class="hero-info-wrapper">
         <div class="hero-text">
            <h1 class="hero-name">{{ site.author | default: "Your Name" }}</h1>
-           <p class="hero-title">Robotics & Mechatronics</p>
+           <p class="hero-title">Robotics & Artificial Intelligence</p>
         </div>
         
         <div class="hero-actions">
@@ -28,7 +28,7 @@ layout: default
   <div class="container">
     <div class="section-header">
       <h2>Portfolio</h2>
-      <p class="section-subtitle">A curated collection of my research and design</p>
+      <p class="section-subtitle">A curated collection of projects</p>
     </div>
     
     <div class="projects-grid-featured">
