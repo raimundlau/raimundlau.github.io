@@ -568,6 +568,7 @@
   border: 1px solid var(--border-color);
   transition: all var(--transition-fast);
   min-width: 120px;
+  flex-wrap: nowrap;
 }
 
 .nav-link:hover {
@@ -579,16 +580,19 @@
 
 .nav-link.prev {
   justify-content: flex-start;
+  order: 1;
 }
 
 .nav-link.next {
   justify-content: flex-end;
+  order: 3;
 }
 
 .nav-link.all-projects {
   justify-content: center;
   background-color: var(--primary-color);
   color: white;
+  order: 2;
 }
 
 .nav-link.all-projects:hover {
@@ -597,6 +601,7 @@
 
 .nav-link span {
   font-weight: var(--font-weight-medium);
+  white-space: nowrap;
 }
 
 /* Revised Project Layout for Two-Column Design */
