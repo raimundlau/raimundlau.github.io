@@ -5,7 +5,7 @@ description: "Drawing a .svg on a whiteboard."
 date: 2025-11-17
 categories: [Robotics, TUM]
 featured_image: "/assets/images/projects/drawing_robot/featured.jpg"
-github_url: "https://gitlab.lrz.de/tum-impl-ws25/group1/assignment-drawing/"
+github_url: "https://gitlab.lrz.de/tum-impl-ws25/group1/assignment-drawing/-/tree/master/student_work_group_01?ref_type=heads"
 demo_url: "https://www.youtube.com/watch?v=UC3RvJ7HVww"
 featured: true
 
