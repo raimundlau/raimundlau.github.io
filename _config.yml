@@ -81,6 +81,12 @@ project_categories:
   - name: "IoT"
     slug: "iot"
     description: "Internet of Things devices and applications"
+  - name: "RPI"
+    slug: "rpi"
+    description: "Raspberry Pi based projects and prototypes"
+  - name: "TUM"
+    slug: "tum"
+    description: "university projects at TUM"
 
 # 3D Model settings
 models:
