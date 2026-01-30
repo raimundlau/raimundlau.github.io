@@ -84,11 +84,5 @@ permalink: /projects/
       {% endfor %}
     </div>
     
-    <div class="showcase-actions">
-      <a href="{{ '/projects/' | relative_url }}" class="btn-primary-large">
-        <i class="fas fa-th"></i>
-        View All Projects
-      </a>
-    </div>
   </div>
 </div>
