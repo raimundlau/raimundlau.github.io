@@ -12,7 +12,7 @@ layout: default
         </div>
         
         <div class="hero-actions">
-          <a href="{{ '/cv/' | relative_url }}" class="btn-secondary">
+          <a href="{{ '/cv.pdf' | relative_url }}" target="_blank" rel="noopener noreferrer" class="btn-secondary">
             CV
           </a>
            <a href="mailto:{{ site.email }}" class="btn-secondary">
