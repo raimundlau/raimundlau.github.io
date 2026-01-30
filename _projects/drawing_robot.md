@@ -44,7 +44,7 @@ gallery:
 Your project content goes here. Use Markdown for formatting.
 
 ## Project Overview
-This project is about a lecture assignment to draw a arbitrary .svg file on a whitboard using an Univresial Robot UR10e with a 3D printed Marker holder.
+This project is about a lecture assignment to draw a arbitrary .svg file on a whitboard using an Universial Robot UR10e with a 3D printed Marker holder.
 
 ## Technical Details
 Add technical specifications, algorithms, etc...

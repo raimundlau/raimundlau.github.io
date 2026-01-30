@@ -165,10 +165,11 @@ layout: default
         <div class="skill-category">
           <h3><i class="fas fa-cube"></i> ML/AI</h3>
           <div class="skill-tags">
-            <span class="skill-tag">Pythorch</span>
+            <span class="skill-tag">Pytorch</span>
             <span class="skill-tag">mlflow</span>
             <span class="skill-tag">tensorboard</span>
             <span class="skill-tag">data science</span>
+            <span class="skill-tag">Docker</span>
           </div>
         </div>
       </div>
