@@ -31,7 +31,7 @@ components:
 # Media gallery with images, videos, and GIFs
 gallery:
   - type: "image"
-    file: "/assets/images/projects/taskboard/featured.gjpg"
+    file: "/assets/images/projects/taskboard/featured.jpg"
     description: "Robot setup"
   - type: "image"
     file: "/assets/images/projects/taskboard/detection.jpg"
