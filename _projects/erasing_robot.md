@@ -1,17 +1,17 @@
 ---
 layout: project
-title: "Drawing robot"
-description: "Drawing a .svg on a whiteboard."
-date: 2025-11-17
+title: "Erasing robot"
+description: "Erasing a defined on a whiteboard."
+date: 2025-12-09
 categories: [Robotics, TUM]
-featured_image: "/assets/images/projects/drawing_robot/featured.jpg"
-github_url: "https://gitlab.lrz.de/tum-impl-ws25/group1/assignment-drawing/"
-demo_url: "https://www.youtube.com/watch?v=UC3RvJ7HVww"
+#featured_image: "/assets/images/projects/drawing_robot/featured.jpg"
+github_url: "https://gitlab.lrz.de/tum-impl-ws25/group1/assignment-erasing"
+demo_url: "https://www.youtube.com/watch?v=jKivvzIEQQw"
 
 # 3D Models
-models:
-  - file: "/assets/models/drawing_robot/model.gltf"
-    description: "Used marker holder"
+#models:
+#  - file: "/assets/models/drawing_robot/model.gltf"
+#    description: "Used marker holder"
 
 # Circuit Schematics
 #schematics:
@@ -22,10 +22,10 @@ models:
 
 # Components List
 components:
-  - name: "UR10e"
+  - name: "Franka Research3"
     quantity: 1
     description: "Cobot"
-    link: "https://www.universal-robots.com/"
+    link: "https://franka.de/de-de/products/franka-research-3"
 
 # Media gallery with images, videos, and GIFs
 #gallery:
@@ -43,7 +43,8 @@ components:
 Your project content goes here. Use Markdown for formatting.
 
 ## Project Overview
-This project is about a lecture assignment to draw a arbitrary .svg file on a whitboard using an Univresial Robot UR10e with a 3D printed Marker holder.
+This assignment is about teaching a robot a motion along a surface and then execute this movement to erase a previously drawn image.
+For that a Franka Research 3 robot is used holding a 3D printed tool, covered in cloth to clean and polish the drawing surface of a dry-erase whiteboard.
 
 ## Technical Details
 Add technical specifications, algorithms, etc...
