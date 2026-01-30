@@ -36,7 +36,7 @@ layout: default
       {% assign all_projects = site.projects | sort: "date" | reverse %}
       {% assign combined_projects = featured_projects | concat: all_projects %}
       {% assign unique_projects = combined_projects | uniq %}
-      {% for project in unique_projects limit: 9 %}
+      {% for project in unique_projects limit: 3 %}
         <div class="project-card-featured">
           <div class="project-media">
             {% if project.featured_image %}

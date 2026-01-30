@@ -29,16 +29,16 @@ components:
     link: "https://www.universal-robots.com/"
 
 # Media gallery with images, videos, and GIFs
-#gallery:
-#  - type: "image"
-#    file: "/assets/images/projects/your-project/photo1.jpg"
-#    description: "Project photo description"
-#  - type: "video"
-#    file: "/assets/images/projects/your-project/demo.mp4"
-#    description: "Demo video description"
-#  - type: "image"
-#    file: "/assets/images/projects/your-project/demo.gif"
-#    description: "Animated GIF demonstration"
+gallery:
+  - type: "image"
+    file: "/assets/images/projects/drawing_robot/setup.jpg"
+    description: "Robot setup"
+  - type: "image"
+    file: "/assets/images/projects/drawing_robot/plane.jpg"
+    description: "Plane teaching"
+  - type: "image"
+    file: "/assets/images/projects/drawing_robot/christmas_tree.jpg"
+    description: "Christmas cards for family"
 ---
 
 Your project content goes here. Use Markdown for formatting.

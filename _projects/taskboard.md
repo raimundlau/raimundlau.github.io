@@ -29,16 +29,13 @@ components:
     link: "https://franka.de/de-de/products/franka-research-3"
 
 # Media gallery with images, videos, and GIFs
-#gallery:
-#  - type: "image"
-#    file: "/assets/images/projects/your-project/photo1.jpg"
-#    description: "Project photo description"
-#  - type: "video"
-#    file: "/assets/images/projects/your-project/demo.mp4"
-#    description: "Demo video description"
-#  - type: "image"
-#    file: "/assets/images/projects/your-project/demo.gif"
-#    description: "Animated GIF demonstration"
+gallery:
+  - type: "image"
+    file: "/assets/images/projects/taskboard/featured.gjpg"
+    description: "Robot setup"
+  - type: "image"
+    file: "/assets/images/projects/taskboard/detection.jpg"
+    description: "Detection from taskboard and buttons"
 ---
 
 Your project content goes here. Use Markdown for formatting.

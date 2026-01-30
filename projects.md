@@ -8,7 +8,7 @@ permalink: /projects/
   <div class="container">
     <div class="section-header">
       <h2>Portfolio</h2>
-      <p class="section-subtitle">A curated collection of projects</p>
+      <p class="section-subtitle">The full collection of my projects</p>
     </div>
     
     <div class="projects-grid-featured">
@@ -16,7 +16,7 @@ permalink: /projects/
       {% assign all_projects = site.projects | sort: "date" | reverse %}
       {% assign combined_projects = featured_projects | concat: all_projects %}
       {% assign unique_projects = combined_projects | uniq %}
-      {% for project in unique_projects limit: 3 %}
+      {% for project in unique_projects limit: 9 %}
         <div class="project-card-featured">
           <div class="project-media">
             {% if project.featured_image %}
