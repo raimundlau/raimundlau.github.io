@@ -163,7 +163,7 @@ layout: default
           </div>
         </div>
         <div class="skill-category">
-          <h3><i class="fas fa-hexagon-nodes"></i> ML/AI</h3>
+          <h3><i class="fas fa-brain"></i> ML/AI</h3>
           <div class="skill-tags">
             <span class="skill-tag">Pytorch</span>
             <span class="skill-tag">mlflow</span>
