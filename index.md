@@ -27,8 +27,8 @@ layout: default
 <div class="hero-section" style="padding: 100px 0; background: var(--surface-color); border-bottom: 1px solid var(--border-color); text-align: center;">
     <div class="container">
         <h1 style="font-size: var(--font-size-3xl); letter-spacing: -0.02em; color: var(--text-primary);">ABOUT ME</h1>
-        <p style="color: var(--text-secondary); opacity: 0.7; max-width: 600px; margin: 0 auto; font-weight: 300;">I am a master student at the Technical University of Munich (TUM) in the field Robotics and AI. I studied Electrical Engineering in my dual bachelor study with the cooperation partner Mercedes-Benz and worked there afterwards for two years before starting the master program.</p>
-        <p style="color: var(--text-secondary); opacity: 0.7; max-width: 600px; margin: 0 auto; font-weight: 300;"></p>
+        <p style="color: var(--text-primary); opacity: 0.7; max-width: 600px; margin: 0 auto; font-weight: var(--font-weight-normal);">I am a master student at the Technical University of Munich (TUM) in the field Robotics and AI. I studied Electrical Engineering in my dual bachelor study with the cooperation partner Mercedes-Benz and worked there afterwards for two years before starting the master program.</p>
+        <p style="color: var(--text-primary); opacity: 0.7; max-width: 600px; margin: 0 auto; font-weight: var(--font-weight-normal);"></p>
     </div>
 </div>
 
