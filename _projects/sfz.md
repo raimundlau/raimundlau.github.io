@@ -1,6 +1,6 @@
 ---
 layout: project
-title: "SFZ"
+title: "RoboCup Rescue Line"
 description: "Schülerforschungszetrum Südwürttemberg"
 date: 2018-02-25
 categories: [Robotics, RPI, Mechatronics]

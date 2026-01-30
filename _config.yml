@@ -59,8 +59,10 @@ navigation:
     url: "/"
   - title: "Projects"
     url: "/projects/"
-  - title: "About"
-    url: "/about/"
+  - title: "CV"
+    url: "/cv/"
+#  - title: "About"
+#    url: "/about/"
 
 # Project categories
 project_categories:

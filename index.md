@@ -12,8 +12,8 @@ layout: default
         </div>
         
         <div class="hero-actions">
-          <a href="{{ '/about/' | relative_url }}" class="btn-secondary">
-            About
+          <a href="{{ '/cv/' | relative_url }}" class="btn-secondary">
+            CV
           </a>
            <a href="mailto:{{ site.email }}" class="btn-secondary">
             Contact
