@@ -166,9 +166,9 @@ layout: default
           <h3><i class="fas fa-brain"></i> ML/AI</h3>
           <div class="skill-tags">
             <span class="skill-tag">Pytorch</span>
-            <span class="skill-tag">mlflow</span>
-            <span class="skill-tag">tensorboard</span>
-            <span class="skill-tag">data science</span>
+            <span class="skill-tag">MLflow</span>
+            <span class="skill-tag">TensorBoard</span>
+            <span class="skill-tag">Data Science</span>
             <span class="skill-tag">Docker</span>
           </div>
         </div>
