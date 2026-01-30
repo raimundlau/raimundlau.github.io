@@ -7,7 +7,7 @@ categories: [Robotics, TUM, IMPL]
 featured_image: "/assets/images/projects/taskboard/featured.jpg"
 github_url: "https://gitlab.lrz.de/tum-impl-ws25/group1/assignment-task-board"
 #demo_url: "https://www.youtube.com/watch?v=UC3RvJ7HVww"
-fearuted: true
+featured: true
 
 # 3D Models
 #models:

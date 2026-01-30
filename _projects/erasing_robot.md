@@ -7,7 +7,7 @@ categories: [Robotics, TUM]
 #featured_image: "/assets/images/projects/drawing_robot/featured.jpg"
 github_url: "https://gitlab.lrz.de/tum-impl-ws25/group1/assignment-erasing"
 demo_url: "https://www.youtube.com/watch?v=jKivvzIEQQw"
-fearuted: true
+featured: true
 
 # 3D Models
 #models:
