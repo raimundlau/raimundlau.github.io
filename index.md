@@ -121,19 +121,21 @@ layout: default
         <div class="skill-category">
           <h3><i class="fas fa-robot"></i> Robotics</h3>
           <div class="skill-tags">
-            <span class="skill-tag">ROS</span>
-            <span class="skill-tag">Kinematics</span>
-            <span class="skill-tag">Path Planning</span>
+            <span class="skill-tag">ROS2</span>
+            <!-- <span class="skill-tag">Kinematics</span>
+            <span class="skill-tag">Path Planning</span> -->
             <span class="skill-tag">SLAM</span>
+            <span class="skill-tag">KUKA</span>
           </div>
         </div>
         <div class="skill-category">
           <h3><i class="fas fa-microchip"></i> Electronics</h3>
           <div class="skill-tags">
+            <span class="skill-tag">Raspberry Pi</span>
             <span class="skill-tag">Arduino</span>
             <span class="skill-tag">ESP32</span>
             <span class="skill-tag">PCB Design</span>
-            <span class="skill-tag">Sensors</span>
+            <!-- <span class="skill-tag">Sensors</span> -->
           </div>
         </div>
         <div class="skill-category">
@@ -142,16 +144,22 @@ layout: default
             <span class="skill-tag">Python</span>
             <span class="skill-tag">C/C++</span>
             <span class="skill-tag">MATLAB</span>
-            <span class="skill-tag">JavaScript</span>
           </div>
         </div>
         <div class="skill-category">
           <h3><i class="fas fa-cube"></i> CAD/Design</h3>
           <div class="skill-tags">
-            <span class="skill-tag">SolidWorks</span>
             <span class="skill-tag">Fusion 360</span>
             <span class="skill-tag">3D Printing</span>
-            <span class="skill-tag">KiCad</span>
+          </div>
+        </div>
+        <div class="skill-category">
+          <h3><i class="fas fa-cube"></i> ML/AI</h3>
+          <div class="skill-tags">
+            <span class="skill-tag">Pythorch</span>
+            <span class="skill-tag">mlflow</span>
+            <span class="skill-tag">tensorboard</span>
+            <span class="skill-tag">data science</span>
           </div>
         </div>
       </div>

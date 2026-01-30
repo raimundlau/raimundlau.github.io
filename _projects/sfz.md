@@ -59,4 +59,5 @@ Develope, build, and program a robot from scratch to participate the RoboCup Ger
 
 ## Technical Details
 The BerryBot group started with different starter kits for multiple years and decided to diverge from the mainstream concept of using nearly pre-built robots from LEGO, Fischertechnik, and other providers. We chose to start from scratch. We were aware of the challenges and poor performance in competitions, but considered them secondary to the learning and fun of building and failing.
+
 The robot's base, gripper, and structure were 3D-printed. The base components, such as the motors, chain drive, and display, were bought. We developed the program from scratch in C++.

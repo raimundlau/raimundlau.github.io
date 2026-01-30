@@ -1,12 +1,12 @@
 ---
 layout: project
-title: "Erasing robot"
-description: "Erasing a defined on a whiteboard."
-date: 2025-12-09
-categories: [Robotics, TUM]
-#featured_image: "/assets/images/projects/drawing_robot/featured.jpg"
-github_url: "https://gitlab.lrz.de/tum-impl-ws25/group1/assignment-erasing"
-demo_url: "https://www.youtube.com/watch?v=jKivvzIEQQw"
+title: "Taskboard manipulation"
+description: "Manipulate a taskboard with a cobot."
+date: 2026-01-26
+categories: [Robotics, TUM, IMPL]
+featured_image: "/assets/images/projects/taskboard/featured.jpg"
+github_url: "https://gitlab.lrz.de/tum-impl-ws25/group1/assignment-task-board"
+#demo_url: "https://www.youtube.com/watch?v=UC3RvJ7HVww"
 
 # 3D Models
 #models:
@@ -43,8 +43,7 @@ components:
 Your project content goes here. Use Markdown for formatting.
 
 ## Project Overview
-This assignment is about teaching a robot a motion along a surface and then execute this movement to erase a previously drawn image.
-For that a Franka Research 3 robot is used holding a 3D printed tool, covered in cloth to clean and polish the drawing surface of a dry-erase whiteboard.
+This project is about a lecture assignment to draw a arbitrary .svg file on a whitboard using an Univresial Robot UR10e with a 3D printed Marker holder.
 
 ## Technical Details
 Add technical specifications, algorithms, etc...
