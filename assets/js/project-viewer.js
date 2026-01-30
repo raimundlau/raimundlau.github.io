@@ -154,13 +154,16 @@ class ProjectViewer {
                 <button class="zoom-btn" data-action="zoom-out" title="Zoom Out">
                     <i class="fas fa-minus"></i>
                 </button>
-                <!-- <button class="zoom-btn" data-action="reset" title="Reset Zoom">
-                    <i class="fas fa-home"></i>
-                </button> -->
                 <button class="zoom-btn" data-action="fullscreen" title="Fullscreen">
                     <i class="fas fa-expand"></i>
                 </button>
             `;
+
+            /**
+             * <!-- <button class="zoom-btn" data-action="reset" title="Reset Zoom">
+                    <i class="fas fa-home"></i>
+                </button> -->
+             */
 
             container.appendChild(controls);
 
