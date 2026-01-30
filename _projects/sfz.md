@@ -4,7 +4,7 @@ title: "SFZ"
 description: "Schülerforschungszetrum Südwürttemberg"
 date: 2018-02-25
 categories: [Robotics, RPI, Mechatronics]
-featured_image: "/assets/images/projects/your-project/featured.jpg"
+featured_image: "/assets/images/projects/sfz/featured.jpg"
 #github_url: "https://github.com/yourusername/your-project"
 #demo_url: "https://youtu.be/your-demo-video"
 
