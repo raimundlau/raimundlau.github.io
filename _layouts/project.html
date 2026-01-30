@@ -249,14 +249,14 @@ layout: default
         {% assign project_array = site.projects | sort: 'date' %}
         {% for project in project_array %}
         {% if project.url == page.url %}
-        {% assign current_index = forloop.index %}
+        {% assign current_index = forloop.index0 %}
         {% break %}
         {% endif %}
         {% endfor %}
 
         <div class="nav-links">
             {% if current_index > 1 %}
-            {% assign prev_project = project_array[current_index | minus: 2] %}
+            {% assign prev_project = project_array[current_index | minus: 1] %}
             <a href="{{ prev_project.url | relative_url }}" class="nav-link prev">
                 <i class="fas fa-chevron-left"></i>
                 <span>{{ prev_project.title }}</span>
@@ -268,7 +268,7 @@ layout: default
                 <span>All Projects</span>
             </a>
 
-            {% if current_index < project_array.size %} {% assign next_project=project_array[current_index] %} <a
+            {% if current_index < project_array.size %} {% assign next_project=project_array[current_index | plus: 1] %} <a
             href="{{ next_project.url | relative_url }}" class="nav-link next">
                 <span>{{ next_project.title }}</span>
                 <i class="fas fa-chevron-right"></i>
