@@ -258,8 +258,8 @@ layout: default
             {% if current_index > 1 %}
             {% assign prev_project = project_array[current_index | minus: 2] %}
             <a href="{{ prev_project.url | relative_url }}" class="nav-link prev">
-                <i class="fas fa-chevron-left"></i>
                 <span>{{ prev_project.title }}</span>
+                <i class="fas fa-chevron-left"></i>
             </a>
             {% endif %}
 
@@ -269,7 +269,7 @@ layout: default
             </a>
 
             {% if current_index < project_array.size %} {% assign next_project=project_array[current_index] %} <a
-                href="{{ next_project.url | relative_url }}" class="nav-link next">
+            href="{{ next_project.url | relative_url }}" class="nav-link next">
                 <span>{{ next_project.title }}</span>
                 <i class="fas fa-chevron-right"></i>
                 </a>
