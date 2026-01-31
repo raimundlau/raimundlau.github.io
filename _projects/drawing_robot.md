@@ -52,7 +52,7 @@ gallery:
 
 ## Project goal
 - Use a UR Cobot to teach the Tool Center Point of the marker holder tool and the drawing plane.
-- After the configuration create a robot program to draw an arbitrary image at a predefined area of the whiteboard.
+- Create a robot program to draw an arbitrary image at a predefined area of the whiteboard.
 
 
 ## Technical Details
