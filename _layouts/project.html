@@ -153,7 +153,9 @@ layout: default
                                 background-color="{{ site.models.default_background | default: '#f0f0f0' }}"
                                 shadow-intensity="1" class="model-viewer">
                             </model-viewer>
-                            <p>{{ model.description}}</p>
+                            {% if model.description %}
+                            <p class="media-caption">{{ model.description }}</p>
+                            {% endif %}
                         </div>
                         {% endfor %}
                     </div>
