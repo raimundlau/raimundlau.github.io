@@ -89,9 +89,11 @@
 
 /* Dark Theme (Deep Space with Soft Blue Accents) */
 [data-theme="dark"] {
-  --primary-color: #64b5f6;
+  /* --primary-color: #64b5f6; */
+  --primary-color: #4a97d5
   --primary-dark: #90caf9;
-  --secondary-color: #42a5f5;
+  /* --secondary-color: #42a5f5; */
+  --secondary-color: #346e9d
   --accent-color: #5dade2;
   --background-color: #1a2332;
   --surface-color: #243447;
