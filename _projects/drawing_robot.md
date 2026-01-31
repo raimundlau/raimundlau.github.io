@@ -53,7 +53,6 @@ gallery:
 - Use a UR Cobot to teach the Tool Center Point of the marker holder tool and the drawing plane.
 - After the configuration create a robot program to draw an arbitrary image at a predefined area of the whiteboard.
 
-## Project steps
 
 ## Technical Details
 For the Tool Center Point calibration we used the multi-pose-approach with the UR Pendant. The plane was also generated with the 3 point mehtod with the UR Pendant. The images at the right show the robot setup we worked with and the testin of the quality of the teached plane.
@@ -66,8 +65,8 @@ For an example usecase we drew christams cards for the family with different ima
 
 
 ## Learnings
-- [x] Learn to safely handle and operate a robot
-- [x] Understand the principle of a Cobot
-- [x] Usage of software like RoboDK for robot simulation
-- [x] Transfer external programs to the robot
-- [x] teleoperate robot from Laptop
+[x] Learn to safely handle and operate a robot
+[x] Understand the principle of a Cobot
+[x] Usage of software like RoboDK for robot simulation
+[x] Transfer external programs to the robot
+[x] teleoperate robot from Laptop
