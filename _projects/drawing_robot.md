@@ -1,7 +1,8 @@
 ---
 layout: project
 title: "Drawing robot"
-description: "This project is about a lecture assignment to draw a arbitrary .svg file on a whitboard using an Universial Robot UR10e with a 3D printed Marker holder. It enables to safely operate a robot and teaches the basics of a Cobot."
+description: "Drawing an arbitrary .svg on a whiteboard."
+description_long: "This project is about a lecture assignment to draw a arbitrary .svg file on a whitboard using an Universial Robot UR10e with a 3D printed Marker holder. It enables to safely operate a robot and teaches the basics of a Cobot."
 date: 2025-11-17
 categories: [Robotics, TUM]
 featured_image: "/assets/images/projects/drawing_robot/featured.jpg"
