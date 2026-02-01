@@ -32,6 +32,9 @@ components:
     quantity: 2
     description: "Drive train"
     #link: "https://www.raspberrypi.com/"
+  - name: "Drive chains"
+    quantity: 2
+    description: "Drive train"
   - name: "Battery"
     quantity: 1
     description: "Power"
