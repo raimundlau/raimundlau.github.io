@@ -2,24 +2,13 @@
 layout: project
 title: "Erasing robot"
 description: "Erasing a defined area on a whiteboard with a cobot"
-description_long: "This project is about a lecture assignment to erase a text on a whitboard using an Franka Emika Research 3 Cobot. This project focus on the different controllers and kinematics from robots.
+description_long: "This project is about a lecture assignment to erase a text on a whitboard using an Franka Emika Research 3 Cobot. This project focus on the different controllers and kinematics from robots."
 date: 2025-12-09
 categories: [Robotics, TUM]
 featured_image: "/assets/images/projects/erasing_robot/featured.jpg"
 github_url: "https://gitlab.lrz.de/tum-impl-ws25/group1/assignment-erasing/-/tree/main/group1_erasing?ref_type=heads"
 demo_url: "https://www.youtube.com/watch?v=jKivvzIEQQw"
 featured: true
-
-# 3D Models
-#models:
-#  - file: "/assets/models/drawing_robot/model.gltf"
-#    description: "Used marker holder"
-
-# Circuit Schematics
-#schematics:
-#  - file: "/assets/schematics/your-project/circuit.png"
-#    description: "Your circuit description"
-
 
 
 # Components List
