@@ -1,7 +1,8 @@
 ---
 layout: project
 title: "Erasing robot"
-description: "Erasing a defined on a whiteboard."
+description: "Erasing a defined area on a whiteboard with a cobot"
+description_long: "This project is about a lecture assignment to erase a text on a whitboard using an Franka Emika Research 3 Cobot. This project focus on the different controllers and kinematics from robots.
 date: 2025-12-09
 categories: [Robotics, TUM]
 featured_image: "/assets/images/projects/erasing_robot/featured.jpg"
@@ -41,11 +42,24 @@ gallery:
     description: "Testing the erasing"
 ---
 
-Your project content goes here. Use Markdown for formatting.
+## Project goals
+- Teach the FR3 cobot a motion along a surface.
+- Replay this movement with enough force against the whiteboard
+- Erase previously drawn image of a dry-erase whitboard
 
-## Project Overview
-This assignment is about teaching a robot a motion along a surface and then execute this movement to erase a previously drawn image.
-For that a Franka Research 3 robot is used holding a 3D printed tool, covered in cloth to clean and polish the drawing surface of a dry-erase whiteboard.
 
 ## Technical Details
-Add technical specifications, algorithms, etc...
+This project uses ROS2 to control the robot and an interactive terminal to guide users through the workflow. The robot can be used in two modes. 
+
+In teaching mode, the absolute joint positions and time relative to the starting time are saved. In this mode, the operator moves the robot arm over the whiteboard to record the erasing movement, as shown in the second picture.
+
+In erasing mode, the robot, with an erasing tool attached, replays the recorded movements while taking the realtive time into account to achieve the teached velocity.
+
+The robot's controller is programmed to allow slight deviations in the path to smooth out the teaching movements and improve the erasing quality.
+
+
+## Learnings
+- [x] Control a cobot with ROS2
+- [x] Teach and replay movements
+- [x] Compare and customize controller for the usecase
+- [x] Force-controlled movements for cobot

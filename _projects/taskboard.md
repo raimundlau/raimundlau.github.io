@@ -1,7 +1,8 @@
 ---
 layout: project
 title: "Taskboard manipulation"
-description: "Manipulate a taskboard with a cobot."
+description: "Manipulate a taskboard with a cobot"
+description_long: "This project is a lecture assignment about manipulating an electronic task board built for benchmarking robot manipulation. The focus is on automatically detecting and precisely controlling the cobot."
 date: 2026-01-26
 categories: [Robotics, TUM, IMPL]
 featured_image: "/assets/images/projects/taskboard/featured.jpg"
@@ -38,10 +39,20 @@ gallery:
     description: "Detection from taskboard and buttons"
 ---
 
-Your project content goes here. Use Markdown for formatting.
-
-## Project Overview
-This project is about a lecture assignment to draw a arbitrary .svg file on a whitboard using an Univresial Robot UR10e with a 3D printed Marker holder.
+## Project goals
+- Detect and classifiy parts on the electronic [taskboard](https://github.com/peterso/robotlearningblock)
+- Move the robot with ROS to the detected objects
+- Manipulate the taskboard with a robot
 
 ## Technical Details
-Add technical specifications, algorithms, etc...
+The [taskboard](https://github.com/peterso/robotlearningblock) is an electronic real-world benchmarking platform for evaluating robot manipulation skills. The box has different modules which focuses on different manipulation skills. For this project the Find-, speed-, and light-test were used.
+
+The perception task uses image and depth information gathered by a RealSense camera. The 3D coordinates of the box and both buttons are calculated and transformed into the correct coordinate frames. Then, the robot can move to these coordinates and interact with the box.
+
+The logic for perception and task completion is written in ROS packages with connections to existing Franka packages.
+
+## Learnings
+- [x] Learn robot manipulation capabilities
+- [x] Perception tasks with RGBD camera
+- [x] Computer vision tasks with image- and depth data
+- [x] Transformations between different robot frames
