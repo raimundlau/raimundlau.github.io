@@ -23,11 +23,11 @@ featured: true
 
 
 # Components List
-components:
-  - name: "Franka Research 3"
-    quantity: 1
-    description: "Cobot"
-    link: "https://franka.de/de-de/products/franka-research-3"
+#components:
+#  - name: "Franka Research 3"
+#    quantity: 1
+#    description: "Cobot"
+#    link: "https://franka.de/de-de/products/franka-research-3"
 
 # Media gallery with images, videos, and GIFs
 gallery:

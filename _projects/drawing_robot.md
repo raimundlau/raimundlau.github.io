@@ -23,17 +23,17 @@ models:
 
 
 # Components List
-components:
-  - name: "UR10e"
-    quantity: 1
-    description: "Cobot"
-    link: "https://www.universal-robots.com/"
-  - name: "Whiteboard"
-    quantity: 1
-    description: "Whiteboard"
-  - name: "Markerholder"
-    quantity: 1
-    description: "Markerholder as tool"
+#components:
+#  - name: "UR10e"
+#    quantity: 1
+#    description: "Cobot"
+#    link: "https://www.universal-robots.com/"
+#  - name: "Whiteboard"
+#    quantity: 1
+#    description: "Whiteboard"
+#  - name: "Markerholder"
+#    quantity: 1
+#    description: "Markerholder as tool"
 
 # Media gallery with images, videos, and GIFs
 gallery:
