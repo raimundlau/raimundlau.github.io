@@ -73,8 +73,8 @@ My group started with different starter kits for multiple years and decided to d
 The robot's base, gripper, and structure were 3D-printed. The base components, such as the motors, chain drive, and display, were bought. We developed the program from scratch in C++.
 
 ## Learnings
-[x] Work and lead a team
-[x] Develop the hardware and software of a robot
-[x] Prioritize different development ideas
-[x] Participate in the competition and represent the team
-[x] Organize sponsors and support for the team
+- [x] Work and lead a team
+- [x] Develop the hardware and software of a robot
+- [x] Prioritize different development ideas
+- [x] Participate in the competition and represent the team
+- [x] Organize sponsors and support for the team

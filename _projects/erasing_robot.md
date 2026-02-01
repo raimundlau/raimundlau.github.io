@@ -2,7 +2,7 @@
 layout: project
 title: "Erasing robot"
 description: "Erasing a defined area on a whiteboard with a cobot"
-description_long: "This project is about a lecture assignment to erase a text on a whitboard using an Franka Emika Research 3 Cobot. This project focus on the different controllers and kinematics from robots."
+description_long: "This project is about a lecture assignment to erase a text on a whitboard using an Franka Emika Research 3 Cobot. This project focuses on the different controllers and kinematics from robots."
 date: 2025-12-09
 categories: [Robotics, TUM]
 featured_image: "/assets/images/projects/erasing_robot/featured.jpg"
@@ -31,7 +31,7 @@ gallery:
     description: "Testing the erasing"
 ---
 
-## Project goals
+## Project Goals
 - Teach the FR3 cobot a motion along a surface.
 - Replay this movement with enough force against the whiteboard
 - Erase previously drawn image of a dry-erase whitboard

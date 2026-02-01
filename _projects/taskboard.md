@@ -39,7 +39,7 @@ gallery:
     description: "Detection from taskboard and buttons"
 ---
 
-## Project goals
+## Project Goals
 - Detect and classifiy parts on the electronic [taskboard](https://github.com/peterso/robotlearningblock)
 - Move the robot with ROS to the detected objects
 - Manipulate the taskboard with a robot

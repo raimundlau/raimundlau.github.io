@@ -27,7 +27,7 @@ layout: default
 <div class="about-section" style="padding: 100px 0; background: var(--surface-color); border-bottom: 1px solid var(--border-color); text-align: center;">
     <div class="container">
         <h1 style="font-size: var(--font-size-3xl); letter-spacing: -0.02em; color: var(--text-primary);">ABOUT ME</h1>
-        <p style="color: var(--text-primary); opacity: 0.7; max-width: 600px; margin: 0 auto; font-weight: var(--font-weight-normal);">I am a master student at the Technical University of Munich (TUM) in the field Robotics and AI. I studied Electrical Engineering in my dual bachelor study with the cooperation partner Mercedes-Benz and worked there afterwards for two years before starting the master program.</p>
+        <p style="color: var(--text-primary); opacity: 0.7; max-width: 600px; margin: 0 auto; font-weight: var(--font-weight-normal);">I am a Master student at the Technical University of Munich (TUM) in the field Robotics and AI. I studied Electrical Engineering in my dual Bachelor study with the cooperation partner Mercedes-Benz and worked there afterwards for two years before starting the Master program.</p>
         <p style="color: var(--text-primary); opacity: 0.7; max-width: 600px; margin: 0 auto; font-weight: var(--font-weight-normal);"></p>
     </div>
 </div>
@@ -153,6 +153,7 @@ layout: default
             <span class="skill-tag">Python</span>
             <span class="skill-tag">C/C++</span>
             <span class="skill-tag">MATLAB</span>
+            <span class="skill-tag">Docker</span>
           </div>
         </div>
         <div class="skill-category">
@@ -169,7 +170,6 @@ layout: default
             <span class="skill-tag">MLflow</span>
             <span class="skill-tag">TensorBoard</span>
             <span class="skill-tag">Data Science</span>
-            <span class="skill-tag">Docker</span>
           </div>
         </div>
       </div>
