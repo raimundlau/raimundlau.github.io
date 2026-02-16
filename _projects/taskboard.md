@@ -40,12 +40,12 @@ gallery:
 ---
 
 ## Project Goals
-- Detect and classifiy parts on the electronic [taskboard](https://github.com/peterso/robotlearningblock)
+- Detect and classifiy parts on the electronic <a href="https://github.com/peterso/robotlearningblock" target="_blank">taskboard</a>
 - Move the robot with ROS to the detected objects
 - Manipulate the taskboard with a robot
 
 ## Technical Details
-The [taskboard](https://github.com/peterso/robotlearningblock) is an electronic real-world benchmarking platform for evaluating robot manipulation skills. The box has different modules which focuses on different manipulation skills. For this project the Find-, speed-, and light-test were used.
+The <a href="https://github.com/peterso/robotlearningblock" target="_blank">taskboard</a> is an electronic real-world benchmarking platform for evaluating robot manipulation skills. The box has different modules which focuses on different manipulation skills. For this project the Find-, speed-, and light-test were used.
 
 The perception task uses image and depth information gathered by a RealSense camera. The 3D coordinates of the box and both buttons are calculated and transformed into the correct coordinate frames. Then, the robot can move to these coordinates and interact with the box.
 

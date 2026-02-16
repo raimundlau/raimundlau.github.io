@@ -61,7 +61,7 @@ components:
 
 
 ## SFZ in general
-The SFZ is an extracurricular program for school students, where they can learn a wide range of knowledge-based MINT topics. Students can learn independently in groups with constant supervision. They can participate in projects such as programming, artificial intelligence (AI), robot programming, model aircraft, and game development. Alternatively, they can bring their own ideas to the free research topic.
+The <a href="https://sfz-bw.de/" target="_blank">SFZ</a> is an extracurricular program for school students, where they can learn a wide range of knowledge-based MINT topics. Students can learn independently in groups with constant supervision. They can participate in projects such as programming, artificial intelligence (AI), robot programming, model aircraft, and game development. Alternatively, they can bring their own ideas to the free research topic.
 
 ## My discipline
 Develop, build, and program a robot from scratch to compete in the Rescue Line discipline at the RoboCup Germany. In this competition, robots must follow a line with different obstacles and intersections. During the tournament, each group competes against the others and is ranked based on the robot's ability to complete the course.
