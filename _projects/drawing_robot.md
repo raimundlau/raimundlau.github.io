@@ -40,9 +40,12 @@ gallery:
   - type: "image"
     file: "/assets/images/projects/drawing_robot/setup.jpg"
     description: "Robot setup"
+#  - type: "image"
+#    file: "/assets/images/projects/drawing_robot/plane.jpg"
+#    description: "Plane teaching"
   - type: "image"
-    file: "/assets/images/projects/drawing_robot/plane.jpg"
-    description: "Plane teaching"
+    file: "/assets/images/projects/drawing_robot/TUM_logo_2x.gif"
+    description: "Drawing TUM logo - speed: 2x"
   - type: "image"
     file: "/assets/images/projects/drawing_robot/christmas_tree.jpg"
     description: "Christmas cards for family"
@@ -56,7 +59,7 @@ gallery:
 
 
 ## Technical Details
-For the Tool Center Point calibration we used the multi-pose-approach with the UR Pendant. The plane was also generated with the 3 point mehtod with the UR Pendant. The images at the right show the robot setup we worked with and the testin of the quality of the teached plane.
+For the Tool Center Point calibration we used the multi-pose-approach with the UR Pendant. The plane was also generated with the 3 point mehtod with the UR Pendant. The images at the right show the robot setup we worked with and drawing of the TUM logo in 2x speed.
 
 We used the simulation software [RoboDK](https://robodk.com/) to program the robot movements, simulate it for checking functionality and safety, and create the robot program, which is used on the real robot.
 
