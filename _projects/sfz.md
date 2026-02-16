@@ -12,9 +12,11 @@ featured: true
 
 # 3D Models
 models:
+  - type: "image"
+    file: "/assets/images/projects/sfz/board.jpg"
+    description: "Own developed pcb"
   - file: "/assets/models/sfz/robot_base.gltf"
     description: "3D printed base of the robot"
-
 
 
 
@@ -46,9 +48,6 @@ components:
 
 # Media gallery with images, videos, and GIFs
 #gallery:
-#  - type: "image"
-#    file: "/assets/images/projects/your-project/photo1.jpg"
-#    description: "Project photo description"
 #  - type: "video"
 #    file: "/assets/images/projects/your-project/demo.mp4"
 #    description: "Demo video description"
