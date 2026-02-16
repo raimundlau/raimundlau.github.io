@@ -38,17 +38,18 @@ gallery:
 
 
 ## Technical Details
-This project uses ROS2 to control the robot and an interactive terminal to guide users through the workflow. The robot can be used in two modes. 
+This project uses ROS2 to control the franka robot and an interactive terminal to guide users through the workflow.
 
-In teaching mode, the absolute joint positions and time relative to the starting time are saved. In this mode, the operator moves the robot arm over the whiteboard to record the erasing movement, as shown in the second picture.
+First, in teaching mode, the absolute joint positions and time relative to the starting time are saved. In this mode, the operator moves the robot arm over the whiteboard to record the erasing movement, as shown in the second picture.
 
 In erasing mode, the robot, with an erasing tool attached, replays the recorded movements while taking the realtive time into account to achieve the teached velocity.
 
-The robot's controller is programmed to allow slight deviations in the path to smooth out the teaching movements and improve the erasing quality.
+To achieve the best results, the controller must be selected and adjusted for this use case. Here the ROS2 C++ packages from franka are used and further developed.
+The robot's controller is programmed to allow slight deviations in the path to smooth out the teaching movements and improve the erasing quality. 
 
 
 ## Learnings
 - [x] Control a cobot with ROS2
 - [x] Teach and replay movements
-- [x] Compare and customize controller for the usecase
+- [x] Compare and customize controller for the use case
 - [x] Force-controlled movements for cobot
