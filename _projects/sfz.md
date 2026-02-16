@@ -14,6 +14,9 @@ gallery:
   - type: "image"
     file: "/assets/images/projects/sfz/board.jpg"
     description: "Own developed pcb"
+  - type: "image"
+    file: "/assets/images/projects/sfz/featured.jpg"
+    description: "Finished robot"
 
 # 3D Models
 models:
