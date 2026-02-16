@@ -61,7 +61,7 @@ gallery:
 ## Technical Details
 For the Tool Center Point calibration we used the multi-pose-approach with the UR Pendant. The plane was also generated with the 3 point mehtod with the UR Pendant. The images at the right show the robot setup we worked with and drawing of the TUM logo in 2x speed.
 
-We used the simulation software [RoboDK](https://robodk.com/) to program the robot movements, simulate it for checking functionality and safety, and create the robot program, which is used on the real robot.
+We used the simulation software <a href="https://robodk.com/" target="_blank">RoboDK</a> to program the robot movements, simulate it for checking functionality and safety, and create the robot program, which is used on the real robot.
 
 In the robot program the image file, the board and image size can be set, as well as the image position relative to the board. The reachability and a safety distance between image and the board border is automatically tested and set.
 
