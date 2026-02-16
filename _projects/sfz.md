@@ -8,7 +8,7 @@ categories: [Robotics, RPI, Mechatronics]
 featured_image: "/assets/images/projects/sfz/featured.jpg"
 #github_url: "https://github.com/yourusername/your-project"
 #demo_url: "https://youtu.be/your-demo-video"
-featured: false
+featured: true
 
 # 3D Models
 models:
