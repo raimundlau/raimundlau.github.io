@@ -135,6 +135,8 @@ layout: default
             <span class="skill-tag">Path Planning</span> -->
             <span class="skill-tag">SLAM</span>
             <span class="skill-tag">KUKA</span>
+            <span class="skill-tag">Franka</span>
+            <span class="skill-tag">UR</span>
           </div>
         </div>
         <div class="skill-category">
