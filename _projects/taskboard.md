@@ -6,7 +6,7 @@ description_long: "This project is a lecture assignment about manipulating an el
 date: 2026-01-26
 categories: [Robotics, TUM, IMPL]
 featured_image: "/assets/images/projects/taskboard/featured.jpg"
-github_url: "https://gitlab.lrz.de/tum-impl-ws25/group1/assignment-task-board"
+github_url: "https://github.com/raimundlau/IMPL_task_board"
 #demo_url: "https://www.youtube.com/watch?v=UC3RvJ7HVww"
 featured: true
 

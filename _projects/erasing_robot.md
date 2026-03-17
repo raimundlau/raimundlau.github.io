@@ -6,7 +6,7 @@ description_long: "This project is about a lecture assignment to erase a text on
 date: 2025-12-09
 categories: [Robotics, TUM]
 featured_image: "/assets/images/projects/erasing_robot/featured.jpg"
-github_url: "https://gitlab.lrz.de/tum-impl-ws25/group1/assignment-erasing/-/tree/main/group1_erasing?ref_type=heads"
+github_url: "https://github.com/raimundlau/IMPL_erasing_robot"
 demo_url: "https://www.youtube.com/watch?v=jKivvzIEQQw"
 featured: false
 
