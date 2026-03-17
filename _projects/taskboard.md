@@ -1,7 +1,7 @@
 ---
 layout: project
-title: "Taskboard manipulation"
-description: "Manipulate a taskboard with a cobot"
+title: "Task Board Manipulation"
+description: "Manipulate a task board with a cobot"
 description_long: "This project is a lecture assignment about manipulating an electronic task board built for benchmarking robot manipulation. The focus is on automatically detecting and precisely controlling the cobot."
 date: 2026-01-26
 categories: [Robotics, TUM, IMPL]
@@ -40,12 +40,12 @@ gallery:
 ---
 
 ## Project Goals
-- Detect and classifiy parts on the electronic <a href="https://github.com/peterso/robotlearningblock" target="_blank">taskboard</a>
+- Detect and classifiy parts on the electronic <a href="https://github.com/peterso/robotlearningblock" target="_blank">task board</a>
 - Move the robot with ROS to the detected objects
-- Manipulate the taskboard with a robot
+- Manipulate the task board with a robot
 
 ## Technical Details
-The <a href="https://github.com/peterso/robotlearningblock" target="_blank">taskboard</a> is an electronic real-world benchmarking platform for evaluating robot manipulation skills. The box has different modules which focuses on different manipulation skills. For this project the Find-, speed-, and light-test were used.
+The <a href="https://github.com/peterso/robotlearningblock" target="_blank">task board</a> is an electronic real-world benchmarking platform for evaluating robot manipulation skills. The box has different modules which focuses on different manipulation skills. For this project the Find-, speed-, and light-test were used.
 
 The perception task uses image and depth information gathered by a RealSense camera. The 3D coordinates of the box and both buttons are calculated and transformed into the correct coordinate frames. Then, the robot can move to these coordinates and interact with the box.
 

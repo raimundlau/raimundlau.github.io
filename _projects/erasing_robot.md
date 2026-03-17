@@ -1,6 +1,6 @@
 ---
 layout: project
-title: "Erasing robot"
+title: "Erasing Robot"
 description: "Erasing a defined area on a whiteboard with a cobot"
 description_long: "This project is about a lecture assignment to erase a text on a whitboard using an Franka Emika Research 3 Cobot. This project focuses on the different controllers and kinematics from robots."
 date: 2025-12-09
